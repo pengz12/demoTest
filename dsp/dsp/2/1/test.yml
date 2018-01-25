@@ -1,0 +1,10 @@
+ESDashboard:
+  http: rpc326:9201,rpc327:9201
+  socket: rpc326:9301,rpc327:9301
+ESAlert:
+  http: rpc326:9202,rpc327:9202
+  socket: rpc326:9302,rpc327:9302
+SyncFileServer:
+  url: 192.168.2.75:9800
+  username: dsp
+  password: 20dSp17
