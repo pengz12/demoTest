@@ -1,0 +1,12 @@
+Mongo:
+  url: mongo.config01:37017,mongo.config02:37017,mongo.config03:37017
+ZK:
+  default: zk01,zk02,zk03,zk04,zk07
+  storm: zk01,zk02,zk03,zk04,zk05
+  kafka: zk10,zk11,zk12,zk13,zk14/kafka
+  hbase: zk48,zk49,zk50,zk51,zk52
+  drill: zk48,zk49,zk50,zk51,zk52
+SyncFileServer:
+  url: 192.168.2.75:9800
+  username: dsp
+  password: 20dSp17
